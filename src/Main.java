@@ -3,6 +3,8 @@ public class Main{
         
         MusicBox mbox = new MusicBox("S34TG65", 'Y', "Raindrops", "Misty", 
         "The path less traveled", "Country", "BZEE Music", "Rhythm Divine");
+       
+       
         MusicBox mbox2 = new MusicBox("T78HJ91", 'N', "Sunshine", "Aurora", 
         "The journey within", "Pop", "Harmony Records", "Melody Lane");
         
@@ -12,7 +14,7 @@ public class Main{
         // --- TODO
 
 
-        
+
         /* Repeat the above code to create another object  
          * Pass different parameters to the MusicBox constructor, but initialise premiumSong to N and when calling the
          * playSong method, pass ads parameter as just 1
