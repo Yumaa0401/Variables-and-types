@@ -74,7 +74,9 @@ public class MusicBox {
 
 
 
+
         
+
         /* The following method is complete. You don't have to do anything here. Just try to understand it. */
         private void playAd(int ads, char premium) {
             if (ads == 1) {
