@@ -3,10 +3,12 @@ public class Main{
         
         MusicBox mbox = new MusicBox("S34TG65", 'Y', "Raindrops", "Misty", 
         "The path less traveled", "Country", "BZEE Music", "Rhythm Divine");
-
+        MusicBox mbox2 = new MusicBox("T78HJ91", 'N', "Sunshine", "Aurora", 
+        "The journey within", "Pop", "Harmony Records", "Melody Lane");
+        
         System.out.println("Now playing the song");
         mbox.playSong(mbox.getSongID(), mbox.getPremiumSong(), 2);
-        
+        mbox2.playSong(mbox2.getSongID(), mbox2.getPremiumSong(), 1);
         // --- TODO
 
         /* Repeat the above code to create another object  
